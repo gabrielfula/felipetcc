@@ -1,0 +1,79 @@
+.container-tutorial {
+  margin: 3rem;
+}
+
+section ul li p {
+  color: #fafafa;
+}
+
+.title-tutorial {
+  color: #fafafa;
+  font-size: 2rem;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+.header {
+  background-image: url(../img/banner_pag4.png);
+  background-size: cover;
+  height: 400px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+body {
+  background: #000000;
+}
+
+.header__nav {
+  display: flex;
+  align-items: center;
+  height: 4rem;
+  padding-top: 7px;
+}
+
+.header__nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  background: none;
+  padding: 16px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  letter-spacing: 2px;
+}
+
+.header__nav img {
+  height: 100%;
+  width: 100px;
+  padding-left: 10px;
+  background-image: url();
+}
+
+.title-tutorial {
+  color: #9900e6;
+}
+
+.container-tutorial p {
+  color: #ffff;
+  width: 35%;
+}
+
+.grid-tutorial {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: flex-end;
+}
+
+.grid-tutorial div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.img-pc {
+  width: 35%;
+}
